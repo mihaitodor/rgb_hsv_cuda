@@ -135,7 +135,7 @@ cvInt8* getCvData(int8 *data, int length) {
 
 void processSpiralImage() {
     std::cout << "Processing spiral.jpg\n";
-    cv::Mat bgrImage = cv::imread("spiral.jpg", CV_LOAD_IMAGE_COLOR);
+    cv::Mat bgrImage = cv::imread("../spiral.jpg", CV_LOAD_IMAGE_COLOR);
 
     int rows = bgrImage.rows;
     int cols = bgrImage.cols;
